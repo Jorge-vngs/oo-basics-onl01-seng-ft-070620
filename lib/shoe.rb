@@ -8,8 +8,16 @@ class Shoe
     @brand
   end 
   
+  def initialize(color)
+    @color
+  end 
+  
   def color 
     @color
+  end 
+  
+  def initialize(size)
+    @size
   end 
   
   def size 
@@ -29,6 +37,7 @@ end
 
 Shoe.new 
 Shoe.color = "red"
+Shoe.size = 9.5
 
 
 
