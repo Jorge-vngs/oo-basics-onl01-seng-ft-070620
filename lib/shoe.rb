@@ -35,9 +35,6 @@ class Shoe
   
 end   
 
-Shoe.new 
-Shoe.color = "red"
-Shoe.size = 9.5
 
 
 
