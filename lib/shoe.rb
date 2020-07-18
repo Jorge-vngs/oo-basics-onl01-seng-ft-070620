@@ -27,7 +27,7 @@ class Shoe
   
 end   
 
-
+Shoe.color = "red"
 
 
 
